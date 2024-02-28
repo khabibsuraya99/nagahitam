@@ -1,0 +1,112 @@
+h1{
+  text-shadow:2px 3px 2px #B67352;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  animation-name: animasinya;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animasinya {
+  from {
+    text-shadow: 2px 2px 2px red;
+  }
+  to {
+    text-shadow: 2px 2px 2px black;
+  }
+}
+
+#logonaga{
+  animation-name: nagajalan;
+  position: absolute;
+  animation: nagajalan 2s infinite;
+  cursor:  none;
+}
+
+@keyframes nagajalan {
+  from{
+    left: 0px;
+  }
+  to{
+    left: 30px;
+  }
+}
+
+
+
+a:link {
+  color: rgb(29, 3, 25);
+  text-decoration: none;
+  padding: 4px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  border-radius: 45px;
+}
+a:visited{color: rgb(29, 31, 30);}
+
+a:hover { 
+  background: #8CB9BD;
+  transition-duration: 2s;
+
+  
+}
+
+
+p{text-align: justify;
+  text-indent:25px ;
+}
+#cpr{color:#4d3501 ;}
+
+
+
+button[type="submit"]{
+  border-radius: 120px;
+  box-shadow: 2px 2px 3px gray;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+#btn-submit:hover{background-color: rgb(127, 167, 168);}
+
+img{
+  transition-property: transform;
+  transition-duration: 2s;
+  
+}
+
+img:hover{
+  transform: rotate(-10deg) scale(1.5);
+  cursor: pointer;
+  
+}
+
+
+ul#menu{
+  padding: 0;
+  margin: 0;
+
+}
+
+ul#menu li{
+  display: inline-block;
+  margin-left: -4px;
+  background-color: #413c3a;
+}
+
+ul#menu li a:hover{
+  background-color: aquamarine;
+}
+
+#bungkus{
+  padding: 15px;
+  width: 950px;
+  margin: 0 auto;
+  background-color: rgb(231, 236, 240);
+  opacity: 0.9;
+}
+
+body{
+  background-image:url(gambar/dragon-wallpaper-preview.jpg);
+  background-size: cover;
+}

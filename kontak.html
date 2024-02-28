@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kontak</title>
+         <link rel="stylesheet" href="rokie.css">
+         <style>
+            /* tabel Servis ------------------------------------------*/
+            table{
+            border-collapse: collapse;
+            width: 400px;
+            margin-bottom: 20px;
+            padding: 15px;
+            }
+            th,td {
+                padding: 5px 10px;
+            }
+            </style>
+    </head>
+    <body >
+        <div id="bungkus">
+            <h1>Kontak</h1>
+        <a href="index.html">Beranda</a> /
+        <a href="servis.html">Servis</a> /
+        <a href="portofolio.html">Portofolio</a> /
+        <a href="kontak.html">Kontak</a>
+
+        <p style="text-indent: 0%;">
+            Sebelum menjadi anggota Naga hitam anda harus mendaftar !!!
+        </p>
+
+        <table id="kontaknya">
+            <form action="proses.html" method="get">
+                <!-- baris 1-->
+                <tr id="kontaknya1">
+                    <th id="kontaknya2">Data Calon Anggota</th>
+                    <th id="kontaknya3">Isian</th>
+                </tr>
+                <!--bariss 2-->
+                <tr id="kontaknya4">
+                 
+                    <td>
+                        <label>Nama:</label>
+                    </td>
+                    <td>
+                    <input type="text" name="nama" placeholder="Siapa Namamu ?"/>
+                    </td>
+                </tr>
+                <!-- baris 3-->
+                <tr id="kontaknya5">
+                    <td>
+                    <label>Hobi:</label>
+                    </td>
+                    <td> 
+                    <input type="checkbox" name="hobi" value="push up" /> push up
+                    <br/>
+                    <input type="checkbox" name="hobi" value="sit up" /> sit up
+                    <br/>
+                    <input type="checkbox" name="hobi" value="pull up" /> pull up
+                    </td>
+
+                </tr>
+                <!--baris 4-->
+                <tr id="kontaknya6">
+                    <td>
+                        <label>Jenis kelamin:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="kelamin" value="Jantan" /> Jantan
+                    <br/>
+                        <input type="radio" name="kelamin" value="Betina" /> Betina
+                    <br/>
+                        <input type="radio" name="kelamin" value="ga ada" /> Gak Punya kelamin
+                        
+                    </td>
+                </tr>
+                <!--baris 5-->
+                <tr>
+                    <th colspan="2">
+                        <button id="btn-submit"type="submit">Daftar Anggota Naga Hitam</button>
+                    </th>
+                </tr>
+          
+              </form>
+      
+        </table>
+
+        <hr/>
+        <footer>
+            <div>Copyright &copy; 2024, Jika berkeinginan kuat menjadi anggota Naga Hitam kau harus kuat mental bozz</div>
+        
+        </footer>
+       
+    </div>
+    </body>
+</html>
